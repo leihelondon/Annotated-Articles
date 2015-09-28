@@ -1,0 +1,20 @@
+{
+  "name": "eu_referendum_annotation_tool",
+  "version": "1.0.0",
+  "description": "This is a simple tool to annotate certain entities in a BBC News article",
+  "main": "index",
+  "dependencies": {
+    "request": "^2.60.0",
+    "q": "^1.4.1",
+    "express": "^4.13.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Lei He",
+  "license": "ISC"
+}
+
+
+
