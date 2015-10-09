@@ -1,0 +1,5 @@
+var definitions = {
+	'European Union': 'The European Union is an economic and political partnership between 28 European countries.It began after World War Two to foster economic co-operation with the idea that countries which trade together are more likely to avoid going to war with each other. It has since grown to become a "single market" allowing goods and people to move around, basically as if the member states were one country. It has its own currency, the euro, its own parliament and it now sets the rules in a wide range of areas - including on the environment, transport, consumer rights and even things like mobile phone charges.',
+
+	'European Economic Community': 'The European Economic Community (EEC) was a regional organisation which aimed to bring about economic integration between its member states. It was created by the Treaty of Rome of 1957. Upon the formation of the European Union (EU) in 1993, the EEC was incorporated and renamed as the European Community (EC). In 2009 the EC\'s institutions were absorbed into the EU\'s wider framework and the community ceased to exist.'
+};
