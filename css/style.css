@@ -4,6 +4,10 @@ Primary style
 
 -------------------------------- */
 
+/**::after, *::before {
+  content: '';
+}*/
+
 .cd-main-content {
   text-align: center;
 }
@@ -765,51 +769,3 @@ Primary style
   }
 }
 
-.competition-table {
-font-family: sans-serif;
--webkit-font-smoothing: antialiased;
-font-size: 115%;
-width: auto;
-overflow: auto;
-display: block;
-}
-.competition-table th {
-background-color: rgb(187,25,25);
-font-weight: normal;
-color: black;
-padding: 20px 30px;
-text-align: center;
-}
-.competition-table td {
-background-color: rgb(238, 238, 238);
-padding: 20px 30px;
-color: rgb(111, 111, 111);
-}
-
-
-.infobox td, .infobox th {
-    vertical-align: top;
-    text-align: left;
-}
-
-
-th {
-    font-weight: bold;
-}
-
-th {
-    display: table-cell;
-    vertical-align: inherit;
-}
-.infobox {
-    
-    
-    line-height: 1.5em;
-}
-
-table {
-    display: table;
-    border-collapse: separate;
-    border-spacing: 2px;
-    border-color: grey;
-}

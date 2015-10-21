@@ -32,7 +32,7 @@
 .popModal.rightCenter:before {top:50%;margin-top:-10px}
 .popModal.leftCenter:after, 
 .popModal.rightCenter:after {top:50%;margin-top:-10px}
-.highlight2{
+.highlighted{
   background-color: rgb(187,25,25);
   color: white;
   -moz-border-radius: 35px;
