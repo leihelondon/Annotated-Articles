@@ -2688,41 +2688,5 @@ for <a href="/wiki/Plymouth_Devonport_(UK_Parliament_constituency)" title="Plymo
 </script>
 
 
-<script>
-
-/*replace external json with actual json file*/
-$(function(){
-    $.getJSON( "data.json", function( data ) {
-        var highlightIdNumber = 0,
-            contentArray = [];
-        $.each( data, function( term, definition ) {
-            var paragraph = $("p:contains('" + term + "')").first(),
-                paragraphHtml = paragraph.html(),
-                highlightId = 'popModal_' + highlightIdNumber,
-                highlightedSpan = '<span id="' + highlightId + '" class="highlight-span highlight2">' + term + ' ' + '<i class="fa fa-plus-circle"></i></span>',
-                contentId = 'content' + highlightIdNumber;
-                contentDiv = '<div id="' + contentId + '"><h1 class="story-body__h1"><i class="fa fa-info-circle"></i>' + ' ' + term + '</h1><p>' + definition + '</p></div>';
-            paragraphHtml = paragraphHtml.replace(term, highlightedSpan);
-            paragraph.html(paragraphHtml);
-            contentArray.push(contentDiv);
-            
-            $('#' + highlightId).click(function(){
-                var clickedElement = $(this),
-                    id = clickedElement.attr('id').split('_')[1];
-                $(this).popModal({ 
-                    html : contentArray[id],
-                    placement : 'bottomLeft',
-                    showCloseBut : true,
-                    onDocumentClickClose : true
-                });
-            });
-            highlightIdNumber++;
-        });
-    });
-});
-
-</script>
-
-
 </body>
 </html>
