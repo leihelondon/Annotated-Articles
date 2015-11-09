@@ -353,38 +353,6 @@ Primary style
   }
 }
 
- ul.tabs{
-            margin: 0px;
-            padding: 0px;
-            list-style: none;
-        }
-        ul.tabs li{
-            background: none;
-            color: #1c1c1c;
-            display: inline-block;
-            padding: 10px 15px;
-            cursor: pointer;
-            font-size: 14px;
-            font-family: "arial";
-            font-weight: bold;
-        }
-
-        ul.tabs li.current{
-            background: #ffffff;
-            color: #222;
-        }
-
-        .tab-content{
-            display: none;
-            background: #ffffff;
-            padding: 15px;
-        }
-
-        .tab-content.current{
-            display: inherit;
-        }
-
-
 #cd-timeline {
   position: relative;
   padding: 2em 0;
